@@ -8,6 +8,7 @@ Group:		Applications/Editors/Vim
 Source0:	matchit-%{version}.zip
 # Source0-md5:	e1e416517e25c384bbaa1e7f5b1b650f
 URL:		http://www.vim.org/scripts/script.php?script_id=39
+BuildRequires:	unzip
 Requires:	vim >= 4:7.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
